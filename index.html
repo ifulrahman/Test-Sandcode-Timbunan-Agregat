@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Sandcode Timbunan Agregat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Test Sandcode Timbunan Agregat</h1>
+        <form id="inspectionForm">
+            <label for="input1">1. Berat Pasir + Botol + Corong (sebelum):</label>
+            <input type="number" id="input1" required>
+            
+            <label for="input2">2. Berat Pasir + Botol + Corong (sesudah):</label>
+            <input type="number" id="input2" required>
+            
+            <label for="input3">3. Berat Pasir Dalam Corong + Lubang:</label>
+            <input type="number" id="input3" readonly>
+            
+            <label for="input4">4. Berat Pasir Dalam Corong:</label>
+            <input type="number" id="input4" required>
+            
+            <label for="input5">5. Berat Pasir Dalam Lubang:</label>
+            <input type="number" id="input5" readonly>
+            
+            <label for="input6">6. Berat Isi Pasir:</label>
+            <input type="number" id="input6" required>
+            
+            <label for="input7">7. Volume Lubang:</label>
+            <input type="number" id="input7" readonly>
+            
+            <label for="input8">8. Berat Tanah Basah + Wadah:</label>
+            <input type="number" id="input8" required>
+            
+            <label for="input9">9. Berat Wadah:</label>
+            <input type="number" id="input9" required>
+            
+            <label for="input10">10. Berat Tanah Basah:</label>
+            <input type="number" id="input10" readonly>
+            
+            <label for="input11">11. Kepadatan Basah, Lapangan:</label>
+            <input type="number" id="input11" readonly>
+            
+            <label for="input12">12. Kepadatan Kering, Lapangan:</label>
+            <input type="number" id="input12" readonly>
+            
+            <label for="input13">13. Berat Material Tertahan 3/4:</label>
+            <input type="number" id="input13" required>
+            
+            <label for="input14">14. Presentasi Butiran Tertahan 3/4:</label>
+            <input type="number" id="input14" readonly>
+            
+            <label for="input15">15. Koreksi Kepadatan Kering, Lab:</label>
+            <input type="number" id="input15" required>
+            
+            <label for="input16">16. Derajat Kepadatan:</label>
+            <input type="number" id="input16" readonly>
+            
+            <label for="input17">17. Spesifikasi Minimal Derajat Kepadatan:</label>
+            <input type="number" id="input17" required>
+            
+            <h4><i>---- Kadar Air ----</i></h4>
+
+            <label for="inputA">A. Berat Cawan + Tanah Basah:</label>
+            <input type="number" id="inputA" required>
+            
+            <label for="inputB">B. Berat Cawan + Tanah Kering:</label>
+            <input type="number" id="inputB" required>
+            
+            <label for="inputC">C. Berat Air:</label>
+            <input type="number" id="inputC" readonly>
+            
+            <label for="inputD">D. Berat Cawan:</label>
+            <input type="number" id="inputD" required>
+            
+            <label for="inputE">E. Berat Tanah Kering:</label>
+            <input type="number" id="inputE" readonly>
+            
+            <label for="inputF1">F. Kadar Air (Manual):</label>
+            <input type="number" id="inputF1" readonly>
+            
+            <label for="inputF2">F. Kadar Air (Speedy Test):</label>
+            <input type="number" id="inputF2" required>
+            
+            <button type="button" onclick="calculate()">Hitung</button>
+        </form>
+        <footer>
+            Copyright &copy; 2024 | Muhammad Syaiful Rahman
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
